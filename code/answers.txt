@@ -1,0 +1,15 @@
+Name: Dorin Keshales
+ID: 313298424
+
+1. I got about the same percentage of accuracy with both models - around 85%-86.6%.
+Sometimes with the log-linear model I even got accuracy of 87%.
+In my opinion, when linear model gets such high accuracy there is no much to MLP with one hidden layer to do in order to improve the accuracy. I mean that a linear model is enough in this case to solve the language identification task well.
+
+
+2. The best I can get with the MLP1 model with the letter-unigrams features is accuracy of 69%-70%. And with the log-linear model, the best I can get with these features is accuracy of 72%.
+In my opinion, the reason for lower percentage of accuracy with the letter-unigrams features in contrary to the letter-bigrams features is that we have much less unigram features than bigrams features. And when looking on the probabilities to each language (which are a consequence of the frequency of the unigrams features in that language) after the Softmax, we are much less sure in our prediction, because we have much less features to count on, when predicting. Therefore, we get more wrong predictions with the letter-unigrams features and the accuracy is lower.
+
+
+3. In each execution of train_mlp1, I got different number of iterations in which I correctly solve the xor problem. In my opinion, it's caused because of the random initialisation of the weights matrices and bias vectors. Moreover, it is known that perceptron doesn't assure that after he saw an example he will correctly classify this example the next time he will see it. And that's another reason that can explain the difference between the runs.
+In order to still be able to answer that question, I used an average of 5 runs which can approximately tell how many iterations it takes to mlp1 to correctly solve the xor problem.
+So, on an average of 5 runs, I was able to solve the xor problem in the 34th iteration.
