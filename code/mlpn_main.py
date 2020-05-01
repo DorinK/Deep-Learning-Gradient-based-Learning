@@ -2,8 +2,7 @@ import mlpn as mlp
 from train_mlpn import train_classifier
 from utils import load_train_set, load_validation_set
 
-STUDENT = {'name': 'Dorin Keshales',
-           'ID': '313298424'}
+STUDENT = {'name': 'Dorin Keshales'}
 
 if __name__ == '__main__':
     # YOUR CODE HERE
