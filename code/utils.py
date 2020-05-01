@@ -1,7 +1,6 @@
 from collections import Counter
 
-STUDENT = {'name': 'Dorin Keshales',
-           'ID': '313298424'}
+STUDENT = {'name': 'Dorin Keshales'}
 
 
 # Reading the data drom the requested file
