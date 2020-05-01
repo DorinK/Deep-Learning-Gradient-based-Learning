@@ -3,8 +3,7 @@ import numpy as np
 import random
 from utils import load_train_set, get_common_features, load_validation_set, load_test_set, index_to_language
 
-STUDENT = {'name': 'Dorin Keshales',
-           'ID': '313298424'}
+STUDENT = {'name': 'Dorin Keshales'}
 
 
 def feats_to_vec(features):
