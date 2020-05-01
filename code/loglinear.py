@@ -1,7 +1,6 @@
 import numpy as np
 
-STUDENT = {'name': 'Dorin Keshales',
-           'ID': '313298424'}
+STUDENT = {'name': 'Dorin Keshales'}
 
 
 def softmax(x):
