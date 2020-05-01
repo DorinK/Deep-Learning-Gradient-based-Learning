@@ -1,6 +1,3 @@
-Name: Dorin Keshales
-ID: 313298424
-
 1. I got about the same percentage of accuracy with both models - around 85%-86.6%.
 Sometimes with the log-linear model I even got accuracy of 87%.
 In my opinion, when linear model gets such high accuracy there is no much to MLP with one hidden layer to do in order to improve the accuracy. I mean that a linear model is enough in this case to solve the language identification task well.
